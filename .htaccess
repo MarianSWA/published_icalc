@@ -1,0 +1,22 @@
+# Cache headers for GitHub Pages
+<IfModule mod_headers.c>
+  # 1 YEAR - Static assets with content hash (JS/CSS in /assets/)
+  <FilesMatch "^assets/.*\.(js|css)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # NO CACHE - HTML files (always get latest version)
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+
+  # 1 WEEK - Images and other static files
+  <FilesMatch "\.(svg|ico|txt)$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+
+  # 1 DAY - XML files
+  <FilesMatch "\.xml$">
+    Header set Cache-Control "public, max-age=86400"
+  </FilesMatch>
+</IfModule>
