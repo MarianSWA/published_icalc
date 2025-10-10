@@ -3,6 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function() {
+        const storageKey = 'calculator-inflatie-theme';
+        const root = document.documentElement;
+
+        let storedTheme = null;
+        try {
+          storedTheme = window.localStorage.getItem(storageKey);
+        } catch (error) {
+          storedTheme = null;
+        }
+
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const hasManualPreference = storedTheme === 'light' || storedTheme === 'dark';
+        const theme = hasManualPreference ? storedTheme : (prefersDark ? 'dark' : 'light');
+
+        root.classList.toggle('dark', theme === 'dark');
+        root.dataset.theme = theme;
+        root.style.colorScheme = theme;
+
+        window.__INITIAL_THEME__ = theme;
+        window.__HAS_MANUAL_THEME__ = hasManualPreference;
+      })();
+    </script>
     
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V90PCNPRGX"></script>
     <script>
@@ -51,8 +75,8 @@
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     
     <!-- Preload Critical Resources -->
-    <link rel="preload" href="./assets/style-BpB3Uvwp.css" as="style" crossorigin fetchpriority="high" />
-    <link rel="modulepreload" href="./assets/index-e6Na-oUp.js" crossorigin fetchpriority="high" />
+    <link rel="preload" href="./assets/style-I0ZfnE_L.css" as="style" crossorigin fetchpriority="high" />
+    <link rel="modulepreload" href="./assets/index-BH7M9KMa.js" crossorigin fetchpriority="high" />
     <!-- Primary Meta Tags -->
     <title>Calculator Inflație România Gratuit</title>
     <meta name="title" content="Calculator Inflație România - Calculează Puterea de Cumpărare în Timp" />
@@ -116,8 +140,8 @@
       ]
     }
     </script>
-    <script type="module" crossorigin src="./assets/index-e6Na-oUp.js" fetchpriority="high"></script>
-    <link rel="stylesheet" crossorigin href="./assets/style-BpB3Uvwp.css" fetchpriority="high" blocking="render">
+    <script type="module" crossorigin src="./assets/index-BH7M9KMa.js" fetchpriority="high"></script>
+    <link rel="stylesheet" crossorigin href="./assets/style-I0ZfnE_L.css" fetchpriority="high" blocking="render">
   </head>
   <body>
     <div id="root"></div>
