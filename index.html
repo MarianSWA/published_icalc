@@ -32,9 +32,31 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+      
+      gtag('consent', 'default', {
+        'analytics_storage': 'denied',
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'wait_for_update': 500
+      });
+      
       gtag('js', new Date());
+      gtag('config', 'G-V90PCNPRGX', {
+        'anonymize_ip': true
+      });
 
-      gtag('config', 'G-V90PCNPRGX');
+      const cookieConsent = localStorage.getItem('cookie-consent-preference');
+      
+      if (cookieConsent === 'accepted') {
+        gtag('consent', 'update', {
+          'analytics_storage': 'granted'
+        });
+      } else if (cookieConsent === 'declined') {
+        gtag('consent', 'update', {
+          'analytics_storage': 'denied'
+        });
+      }
     </script>
     
     <!-- Favicons -->
@@ -77,13 +99,13 @@
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     
     <!-- Preload Critical Resources -->
-    <link rel="preload" href="./assets/style-DyKjRYSR.css" as="style" crossorigin fetchpriority="high" />
-    <link rel="modulepreload" href="./assets/index-DHVvRswP.js" crossorigin fetchpriority="high" />
+    <link rel="preload" href="./assets/style-CXXWEFFO.css" as="style" crossorigin fetchpriority="high" />
+    <link rel="modulepreload" href="./assets/index-HJtvHNsE.js" crossorigin fetchpriority="high" />
     <!-- Primary Meta Tags -->
-    <title>Calculator Inflatie Romania RON - Rata Inflatiei BNR</title>
+    <title>Calculator Inflatie Romania - Rata Inflatiei RON, BNR</title>
     <meta name="title" content="Calculator Inflatie Romania RON - Rata Inflatiei BNR" />
-    <meta name="description" content="Calculator inflatie romania online gratuit cu date BNR. Calculator inflatie ron pentru rata inflatiei din 1971-2025. Calculează puterea de cumpărare și devalorizarea monedei in Romania." />
-    <meta name="keywords" content="calculator inflatie romania, calculator inflatie, calculator inflatie ron, calculator inflatie bnr, calculator rata inflatiei, calculator de inflatie, calculator rata inflatie, inflatie calculator, inflation calculator romania, rata inflatiei calcul, actualizare cu rata inflatiei calculator, calculator actualizare suma cu rata inflatiei, calculator inflație, inflație România, putere de cumpărare, devalorizare monedă, RON, BNR, statistici economice" />
+    <meta name="description" content="Calculator inflatie romania online gratuit cu date BNR și INSSE. Calculator inflatie ron (lei) pentru rata inflatiei din 1971-2025. Calculează puterea de cumpărare și devalorizarea monedei (lei) in Romania." />
+    <meta name="keywords" content="calculator inflatie romania, calculator inflatie, calculator inflatie ron, calculator inflatie lei, calculator inflatie bnr, calculator inflatie insse, calculator rata inflatiei, calculator de inflatie, calculator rata inflatie, inflatie calculator, inflation calculator romania, rata inflatiei calcul, actualizare cu rata inflatiei calculator, calculator actualizare suma cu rata inflatiei, calculator inflație, inflație România, putere de cumpărare, devalorizare monedă, RON, lei, BNR, INSSE, statistici economice" />
     <meta name="author" content="Calculator Inflație România" />
     <meta name="robots" content="index, follow" />
     <meta name="language" content="Romanian" />
@@ -93,7 +115,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://calculatorinflatie.ro/" />
     <meta property="og:title" content="Calculator Inflatie Romania RON - Calculator Rata Inflatiei BNR" />
-    <meta property="og:description" content="Calculator inflatie romania online gratuit cu date BNR. Calculator inflatie ron pentru rata inflatiei din 1971-2025. Calculează puterea de cumpărare în Romania." />
+    <meta property="og:description" content="Calculator inflatie romania online gratuit cu date BNR și INSSE. Calculator inflatie ron lei pentru rata inflatiei din 1971-2025. Calculează puterea de cumpărare în Romania." />
     <meta property="og:image" content="https://calculatorinflatie.ro/android-chrome-512x512.png" />
     <meta property="og:image:alt" content="Calculator Inflatie Romania RON - Calculator Rata Inflatiei BNR Online Gratuit" />
     <meta property="og:locale" content="ro_RO" />
@@ -103,7 +125,7 @@
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://calculatorinflatie.ro/" />
     <meta property="twitter:title" content="Calculator Inflatie Romania RON - Calculator Rata Inflatiei BNR" />
-    <meta property="twitter:description" content="Calculator inflatie romania online gratuit cu date BNR. Calculator inflatie ron pentru rata inflatiei din 1971-2025. Calculează puterea de cumpărare în Romania." />
+    <meta property="twitter:description" content="Calculator inflatie romania online gratuit cu date BNR și INSSE. Calculator inflatie ron lei pentru rata inflatiei din 1971-2025. Calculează puterea de cumpărare în Romania." />
     <meta property="twitter:image" content="https://calculatorinflatie.ro/android-chrome-512x512.png" />
     <meta property="twitter:image:alt" content="Calculator Inflatie Romania RON - Calculator Rata Inflatiei BNR Online Gratuit" />
     
@@ -126,8 +148,8 @@
       "@context": "https://schema.org",
       "@type": "WebApplication",
       "name": "Calculator Inflatie Romania RON",
-      "alternateName": ["Calculator Inflatie Romania", "Calculator Inflatie RON", "Calculator Rata Inflatiei", "Calculator Inflatie BNR", "Calculator de Inflatie", "Inflation Calculator Romania", "Rata Inflatiei Calcul", "Actualizare cu Rata Inflatiei Calculator", "Calculator Actualizare Suma cu Rata Inflatiei"],
-      "description": "Calculator inflatie romania online gratuit cu date oficiale BNR pentru calcularea ratei inflatiei RON din 1971-2025. Calculează puterea de cumpărare și devalorizarea monedei în Romania.",
+      "alternateName": ["Calculator Inflatie Romania", "Calculator Inflatie RON", "Calculator Inflatie Lei", "Calculator Rata Inflatiei", "Calculator Inflatie BNR", "Calculator Inflatie INSSE", "Calculator de Inflatie", "Inflation Calculator Romania", "Rata Inflatiei Calcul", "Actualizare cu Rata Inflatiei Calculator", "Calculator Actualizare Suma cu Rata Inflatiei"],
+      "description": "Calculator inflatie romania online gratuit cu date oficiale BNR și INSSE pentru calcularea ratei inflatiei RON (lei) din 1971-2025. Calculează puterea de cumpărare și devalorizarea monedei în Romania.",
       "url": "https://calculatorinflatie.ro/",
       "applicationCategory": "FinanceApplication",
       "operatingSystem": "Web Browser",
@@ -154,8 +176,8 @@
       ]
     }
     </script>
-    <script type="module" crossorigin src="./assets/index-DHVvRswP.js" fetchpriority="high"></script>
-    <link rel="stylesheet" crossorigin href="./assets/style-DyKjRYSR.css" fetchpriority="high" blocking="render">
+    <script type="module" crossorigin src="./assets/index-HJtvHNsE.js" fetchpriority="high"></script>
+    <link rel="stylesheet" crossorigin href="./assets/style-CXXWEFFO.css" fetchpriority="high" blocking="render">
   </head>
   <body>
     <div id="root"></div>
