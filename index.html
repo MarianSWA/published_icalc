@@ -37,7 +37,6 @@
       const cookieConsent = localStorage.getItem('cookie-consent-preference');
       
       if (cookieConsent === 'accepted') {
-        // User has accepted cookies - enable full analytics with storage
         gtag('consent', 'default', {
           'analytics_storage': 'granted',
           'ad_storage': 'denied',
@@ -57,10 +56,8 @@
           'ad_personalization': 'denied'
         });
       } else {
-        // No consent yet - use cookieless/restricted mode (GDPR-compliant)
-        // This sends anonymous pings without storing cookies
         gtag('consent', 'default', {
-          'analytics_storage': 'denied',
+          'analytics_storage': 'granted',
           'ad_storage': 'denied',
           'ad_user_data': 'denied',
           'ad_personalization': 'denied'
@@ -68,18 +65,15 @@
         
         gtag('config', 'G-V90PCNPRGX', {
           'anonymize_ip': true,
-          'client_storage': 'none',  // Disable client-side storage completely
-          'cookie_flags': 'SameSite=None;Secure'
+          'client_storage': 'none'
         });
       }
       
-      // Function to update consent when user makes a choice
       window.updateGoogleAnalyticsConsent = function(consentGranted) {
         if (consentGranted) {
           gtag('consent', 'update', {
             'analytics_storage': 'granted'
           });
-          // Reinitialize with cookie support
           gtag('config', 'G-V90PCNPRGX', {
             'anonymize_ip': true,
             'cookie_flags': 'SameSite=None;Secure'
