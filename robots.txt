@@ -12,5 +12,10 @@ Disallow: /package.json
 Disallow: /README.md
 
 # Allow important files
+Allow: /favicon.ico
 Allow: /favicon.svg
+Allow: /favicon*.png
+Allow: /apple-touch-icon*.png
+Allow: /android-chrome*.png
+Allow: /manifest.json
 Allow: /dist/

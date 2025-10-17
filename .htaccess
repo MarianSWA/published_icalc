@@ -10,13 +10,31 @@
     Header set Cache-Control "public, max-age=0, must-revalidate"
   </FilesMatch>
 
-  # 1 WEEK - Images and other static files
-  <FilesMatch "\.(svg|ico|txt)$">
+  # 1 WEEK - Favicons (ensure Google can cache)
+  <FilesMatch "favicon\.(ico|svg|png)$">
+    Header set Cache-Control "public, max-age=604800"
+    Header set Content-Type "image/x-icon" env=ico
+  </FilesMatch>
+
+  # 1 WEEK - All favicon variants
+  <FilesMatch "(favicon-.*|apple-touch-icon.*|android-chrome.*)\.(png|svg)$">
     Header set Cache-Control "public, max-age=604800"
   </FilesMatch>
 
-  # 1 DAY - XML files
-  <FilesMatch "\.xml$">
+  # 1 WEEK - Images and other static files
+  <FilesMatch "\.(svg|ico|txt|png|jpg|jpeg|webp)$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+
+  # 1 DAY - XML and manifest files
+  <FilesMatch "\.(xml|json)$">
     Header set Cache-Control "public, max-age=86400"
   </FilesMatch>
+</IfModule>
+
+# Ensure favicon.ico is served with correct MIME type
+<IfModule mod_mime.c>
+  AddType image/x-icon .ico
+  AddType image/svg+xml .svg
+  AddType application/manifest+json .webmanifest
 </IfModule>
