@@ -33,30 +33,63 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       
-      gtag('consent', 'default', {
-        'analytics_storage': 'denied',
-        'ad_storage': 'denied',
-        'ad_user_data': 'denied',
-        'ad_personalization': 'denied',
-        'wait_for_update': 500
-      });
-      
       gtag('js', new Date());
-      gtag('config', 'G-V90PCNPRGX', {
-        'anonymize_ip': true
-      });
-
       const cookieConsent = localStorage.getItem('cookie-consent-preference');
       
       if (cookieConsent === 'accepted') {
-        gtag('consent', 'update', {
-          'analytics_storage': 'granted'
+        // User has accepted cookies - enable full analytics with storage
+        gtag('consent', 'default', {
+          'analytics_storage': 'granted',
+          'ad_storage': 'denied',
+          'ad_user_data': 'denied',
+          'ad_personalization': 'denied'
+        });
+        
+        gtag('config', 'G-V90PCNPRGX', {
+          'anonymize_ip': true,
+          'cookie_flags': 'SameSite=None;Secure'
         });
       } else if (cookieConsent === 'declined') {
-        gtag('consent', 'update', {
-          'analytics_storage': 'denied'
+        gtag('consent', 'default', {
+          'analytics_storage': 'denied',
+          'ad_storage': 'denied',
+          'ad_user_data': 'denied',
+          'ad_personalization': 'denied'
+        });
+      } else {
+        // No consent yet - use cookieless/restricted mode (GDPR-compliant)
+        // This sends anonymous pings without storing cookies
+        gtag('consent', 'default', {
+          'analytics_storage': 'denied',
+          'ad_storage': 'denied',
+          'ad_user_data': 'denied',
+          'ad_personalization': 'denied'
+        });
+        
+        gtag('config', 'G-V90PCNPRGX', {
+          'anonymize_ip': true,
+          'client_storage': 'none',  // Disable client-side storage completely
+          'cookie_flags': 'SameSite=None;Secure'
         });
       }
+      
+      // Function to update consent when user makes a choice
+      window.updateGoogleAnalyticsConsent = function(consentGranted) {
+        if (consentGranted) {
+          gtag('consent', 'update', {
+            'analytics_storage': 'granted'
+          });
+          // Reinitialize with cookie support
+          gtag('config', 'G-V90PCNPRGX', {
+            'anonymize_ip': true,
+            'cookie_flags': 'SameSite=None;Secure'
+          });
+        } else {
+          gtag('consent', 'update', {
+            'analytics_storage': 'denied'
+          });
+        }
+      };
     </script>
     
     <!-- Favicons -->
@@ -100,7 +133,7 @@
     
     <!-- Preload Critical Resources -->
     <link rel="preload" href="./assets/style-CohfalFq.css" as="style" crossorigin fetchpriority="high" />
-    <link rel="modulepreload" href="./assets/index-BbeT5cD4.js" crossorigin fetchpriority="high" />
+    <link rel="modulepreload" href="./assets/index-Dw-vbas7.js" crossorigin fetchpriority="high" />
     <!-- Primary Meta Tags -->
     <title>Calculator Inflatie Romania - Rata Inflatiei RON, BNR</title>
     <meta name="title" content="Calculator Inflatie Romania RON - Rata Inflatiei BNR" />
@@ -176,7 +209,7 @@
       ]
     }
     </script>
-    <script type="module" crossorigin src="./assets/index-BbeT5cD4.js" fetchpriority="high"></script>
+    <script type="module" crossorigin src="./assets/index-Dw-vbas7.js" fetchpriority="high"></script>
     <link rel="stylesheet" crossorigin href="./assets/style-CohfalFq.css" fetchpriority="high" blocking="render">
   </head>
   <body>
