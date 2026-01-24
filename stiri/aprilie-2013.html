@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    (function() {
+      const storageKey = 'calculator-inflatie-theme';
+      const root = document.documentElement;
+      let storedTheme = null;
+      try { storedTheme = window.localStorage.getItem(storageKey); } catch (error) {}
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const hasManualPreference = storedTheme === 'light' || storedTheme === 'dark';
+      const theme = hasManualPreference ? storedTheme : (prefersDark ? 'dark' : 'light');
+      root.classList.toggle('dark', theme === 'dark');
+      root.dataset.theme = theme;
+      root.style.colorScheme = theme;
+      window.__INITIAL_THEME__ = theme;
+      window.__HAS_MANUAL_THEME__ = hasManualPreference;
+    })();
+  </script>
+  
+  <style>
+    *,::before,::after{box-sizing:border-box;margin:0;padding:0}
+    html{line-height:1.5;-webkit-text-size-adjust:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+    body{line-height:inherit;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+  </style>
+
+  <title>Inflație România Aprilie 2013 - 5,29% | Calculator Inflație</title>
+  <meta name="description" content="Rata inflației în România pentru Aprilie 2013: 5,29%. Date oficiale INS cu statistici detaliate.">
+  <link rel="canonical" href="https://calculatorinflatie.ro/stiri/aprilie-2013.html">
+  
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="48x48" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://calculatorinflatie.ro/stiri/aprilie-2013.html" />
+  <meta property="og:title" content="Inflație România Aprilie 2013 - 5,29% | Calculator Inflație" />
+  <meta property="og:description" content="Rata inflației în România pentru Aprilie 2013: 5,29%. Date oficiale INS cu statistici detaliate." />
+  <meta property="og:locale" content="ro_RO" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:title" content="Inflație România Aprilie 2013 - 5,29% | Calculator Inflație" />
+  <meta property="twitter:description" content="Rata inflației în România pentru Aprilie 2013: 5,29%. Date oficiale INS cu statistici detaliate." />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-slate-950 dark:via-slate-950 dark:to-slate-900 transition-colors duration-200">
+
+  <nav class="fixed top-0 left-0 right-0 z-50 px-2 sm:px-3 md:px-5 xl:px-72 pt-1 sm:pt-1.5">
+    <div class="max-w-6xl mx-auto">
+      <div class="bg-gradient-to-r from-blue-600/70 to-indigo-600/70 backdrop-blur-lg text-white shadow-2xl rounded-2xl dark:brightness-110">
+        <div class="px-3 sm:px-4 md:px-5 py-2 sm:py-3">
+          <div class="flex items-center justify-between gap-3">
+            <nav class="flex items-center gap-1.5 sm:gap-2 flex-wrap flex-1 min-w-0">
+              <a href="/" class="flex flex-col sm:flex-row items-center gap-1 sm:gap-1.5 px-1.5 sm:px-2.5 py-1 sm:py-1.5 rounded-lg bg-white/15 hover:bg-white/25 transition-all duration-200 font-medium backdrop-blur-sm border border-white/20 hover:border-white/30 shadow-sm hover:shadow-md no-underline text-white">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                </svg>
+                <span class="text-[8px] sm:text-sm leading-none uppercase sm:normal-case">Calculator</span>
+              </a>
+              <a href="/stiri.html" class="flex flex-col sm:flex-row items-center gap-1 sm:gap-1.5 px-1.5 sm:px-2.5 py-1 sm:py-1.5 rounded-lg bg-white/25 transition-all duration-200 font-medium backdrop-blur-sm border border-white/30 shadow-sm no-underline text-white">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                </svg>
+                <span class="text-[8px] sm:text-sm leading-none uppercase sm:normal-case">Știri</span>
+              </a>
+            </nav>
+            <div class="flex-shrink-0 flex items-center gap-2">
+              <button id="shareButton" class="p-1.5 sm:p-2 rounded-lg bg-white/15 hover:bg-white/25 transition-all duration-200 border border-white/20 hover:border-white/30 shadow-sm hover:shadow-md group relative">
+                <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                </svg>
+              </button>
+              <button id="themeToggle" class="p-1.5 sm:p-2 rounded-lg bg-white/15 hover:bg-white/25 transition-all duration-200 border border-white/20 hover:border-white/30 shadow-sm hover:shadow-md">
+                <svg id="sunIcon" class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+                <svg id="moonIcon" class="w-4 h-4 sm:w-5 sm:h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="min-h-screen pt-20 pb-8 px-2 sm:px-3 md:px-5 xl:px-72">
+    <div class="max-w-6xl mx-auto">
+      
+    <article class="bg-white dark:bg-slate-900/80 rounded-2xl shadow-2xl p-6 sm:p-8 border-2 border-gray-200 dark:border-slate-800">
+      
+      <!-- Featured Image -->
+      <div class="mb-6 rounded-xl overflow-hidden">
+        <img src="/stiri_images/Food Inflation.svg" alt="Inflație Aprilie 2013" class="w-full h-auto max-h-96 object-contain bg-gradient-to-br from-blue-100/50 to-indigo-100/50 dark:from-blue-950/30 dark:to-indigo-950/30" />
+      </div>
+
+      <!-- Article Header -->
+      <header class="mb-6 pb-6 border-b-2 border-gray-200 dark:border-slate-700">
+        <div class="flex items-center gap-2 text-sm text-gray-600 dark:text-slate-400 mb-3">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          <time datetime="2013-04">Aprilie 2013</time>
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+          Inflație 5,29% în Aprilie 2013
+        </h1>
+      </header>
+
+      <!-- Article Content -->
+      <div class="prose dark:prose-invert max-w-none mb-8">
+        <p class="text-lg leading-relaxed text-gray-700 dark:text-slate-300">
+          Rata anuală a inflației a ajuns la <strong class="text-blue-600 dark:text-blue-400">5,29%</strong> în Aprilie 2013, comparativ cu aceeași lună din 2012, potrivit datelor publicate de Institutul Național de Statistică (INS).
+           Inflația este puțin peste cea din martie, când rata a fost de 5,25%.
+        </p>
+
+        
+        <p class="text-lg leading-relaxed text-gray-700 dark:text-slate-300 mt-4">
+          Inflația medie anuală în 2013 a fost de <strong class="text-blue-600 dark:text-blue-400">3,98%</strong>, față de 3,33% în 2012, ceea ce arată o accelerare a scumpirilor și o presiune tot mai mare asupra puterii de cumpărare.
+        </p>
+        
+
+        <p class="text-lg leading-relaxed text-gray-700 dark:text-slate-300 mt-4">
+          Creșterea prețurilor nu a fost uniformă. Cele mai mari schimbări au fost înregistrate la mărfurile nealimentare, unde tarifele au crescut cu <strong class="text-blue-600 dark:text-blue-400">5,80%</strong>, urmate de alimente, cu <strong class="text-blue-600 dark:text-blue-400">5,60%</strong>, și de servicii, cu <strong class="text-blue-600 dark:text-blue-400">3,48%</strong>.
+        </p>
+      </div>
+
+      <!-- Inflation Rate Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+        <!-- Annual Inflation -->
+        <div class="bg-gradient-to-br from-rose-50 to-red-50 dark:from-blue-950/30 dark:to-indigo-950/30 rounded-2xl p-6 border-2 border-rose-200 dark:border-blue-900/50">
+          <div class="text-center">
+            <p class="text-sm sm:text-base text-rose-700 dark:text-rose-100 mb-2 font-semibold">Devalorizare</p>
+            <p class="text-4xl sm:text-5xl font-extrabold text-rose-700 dark:text-blue-400 mb-2">5,29%</p>
+            <p class="text-xs sm:text-sm text-gray-600 dark:text-slate-500">Comparativ cu Aprilie 2012</p>
+          </div>
+        </div>
+        
+        <!-- Monthly Inflation -->
+        <div class="bg-gradient-to-br from-emerald-50 to-green-50 dark:from-purple-950/30 dark:to-pink-950/30 rounded-2xl p-6 border-2 border-emerald-200 dark:border-purple-900/50">
+          <div class="text-center">
+            <p class="text-sm sm:text-base text-emerald-700 dark:text-emerald-100 mb-2 font-semibold">Actualizare cu Inflația</p>
+            <p class="text-4xl sm:text-5xl font-extrabold text-emerald-700 dark:text-purple-400 mb-2">+0,04%</p>
+            <p class="text-xs sm:text-sm text-gray-600 dark:text-slate-500">Comparativ cu martie</p>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Categories Breakdown -->
+      <div class="mb-8">
+        <h2 class="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-4">Defalcare pe categorii</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          
+            <div class="bg-gray-50 dark:bg-slate-800/50 rounded-lg p-5 border-2 border-gray-200 dark:border-slate-700 hover:shadow-lg transition-shadow relative group">
+              <div class="mb-3">
+                <h3 class="font-semibold text-gray-900 dark:text-white mb-1">Mărfuri nealimentare</h3>
+              </div>
+              <div class="space-y-3">
+                <div>
+                  <div class="flex items-baseline justify-between mb-1">
+                    <span class="text-xs font-semibold text-gray-600 dark:text-slate-400">Anual (YoY)</span>
+                    <span class="text-2xl font-bold text-blue-600 dark:text-blue-400">5,80%</span>
+                  </div>
+                  <p class="text-xs text-gray-500 dark:text-slate-500">vs. Aprilie 2012</p>
+                </div>
+                
+                <div class="pt-3 border-t-2 border-gray-200 dark:border-slate-600">
+                  <div class="flex items-baseline justify-between mb-1">
+                    <span class="text-xs font-semibold text-gray-600 dark:text-slate-400">Lunar (MoM)</span>
+                    <span class="text-xl font-bold text-green-700 dark:text-green-400">-0,01%</span>
+                  </div>
+                  <p class="text-xs text-gray-500 dark:text-slate-500">vs. martie</p>
+                </div>
+                
+              </div>
+              <!-- Tooltip -->
+              <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 dark:bg-slate-700 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10">
+                <div class="text-center">
+                  <div class="font-semibold mb-1">Mărfuri nealimentare</div>
+                  <div>YoY: 5,80%</div>
+                  <div>MoM: -0,01%</div>
+                </div>
+                <div class="absolute top-full left-1/2 transform -translate-x-1/2 border-4 border-transparent border-t-gray-800 dark:border-t-slate-700"></div>
+              </div>
+            </div>
+          
+            <div class="bg-gray-50 dark:bg-slate-800/50 rounded-lg p-5 border-2 border-gray-200 dark:border-slate-700 hover:shadow-lg transition-shadow relative group">
+              <div class="mb-3">
+                <h3 class="font-semibold text-gray-900 dark:text-white mb-1">Produse alimentare</h3>
+              </div>
+              <div class="space-y-3">
+                <div>
+                  <div class="flex items-baseline justify-between mb-1">
+                    <span class="text-xs font-semibold text-gray-600 dark:text-slate-400">Anual (YoY)</span>
+                    <span class="text-2xl font-bold text-blue-600 dark:text-blue-400">5,60%</span>
+                  </div>
+                  <p class="text-xs text-gray-500 dark:text-slate-500">vs. Aprilie 2012</p>
+                </div>
+                
+                <div class="pt-3 border-t-2 border-gray-200 dark:border-slate-600">
+                  <div class="flex items-baseline justify-between mb-1">
+                    <span class="text-xs font-semibold text-gray-600 dark:text-slate-400">Lunar (MoM)</span>
+                    <span class="text-xl font-bold text-emerald-700 dark:text-purple-400">+0,14%</span>
+                  </div>
+                  <p class="text-xs text-gray-500 dark:text-slate-500">vs. martie</p>
+                </div>
+                
+              </div>
+              <!-- Tooltip -->
+              <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 dark:bg-slate-700 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10">
+                <div class="text-center">
+                  <div class="font-semibold mb-1">Produse alimentare</div>
+                  <div>YoY: 5,60%</div>
+                  <div>MoM: +0,14%</div>
+                </div>
+                <div class="absolute top-full left-1/2 transform -translate-x-1/2 border-4 border-transparent border-t-gray-800 dark:border-t-slate-700"></div>
+              </div>
+            </div>
+          
+            <div class="bg-gray-50 dark:bg-slate-800/50 rounded-lg p-5 border-2 border-gray-200 dark:border-slate-700 hover:shadow-lg transition-shadow relative group">
+              <div class="mb-3">
+                <h3 class="font-semibold text-gray-900 dark:text-white mb-1">Servicii</h3>
+              </div>
+              <div class="space-y-3">
+                <div>
+                  <div class="flex items-baseline justify-between mb-1">
+                    <span class="text-xs font-semibold text-gray-600 dark:text-slate-400">Anual (YoY)</span>
+                    <span class="text-2xl font-bold text-blue-600 dark:text-blue-400">3,48%</span>
+                  </div>
+                  <p class="text-xs text-gray-500 dark:text-slate-500">vs. Aprilie 2012</p>
+                </div>
+                
+                <div class="pt-3 border-t-2 border-gray-200 dark:border-slate-600">
+                  <div class="flex items-baseline justify-between mb-1">
+                    <span class="text-xs font-semibold text-gray-600 dark:text-slate-400">Lunar (MoM)</span>
+                    <span class="text-xl font-bold text-green-700 dark:text-green-400">-0,04%</span>
+                  </div>
+                  <p class="text-xs text-gray-500 dark:text-slate-500">vs. martie</p>
+                </div>
+                
+              </div>
+              <!-- Tooltip -->
+              <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-2 bg-gray-800 dark:bg-slate-700 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10">
+                <div class="text-center">
+                  <div class="font-semibold mb-1">Servicii</div>
+                  <div>YoY: 3,48%</div>
+                  <div>MoM: -0,04%</div>
+                </div>
+                <div class="absolute top-full left-1/2 transform -translate-x-1/2 border-4 border-transparent border-t-gray-800 dark:border-t-slate-700"></div>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+
+      <!-- Data Source -->
+      <div class="mt-8 pt-6 border-t-2 border-gray-200 dark:border-slate-700">
+        <p class="text-sm text-gray-600 dark:text-slate-500">
+          <svg class="w-4 h-4 inline mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Sursa: Institutul Național de Statistică (INS)
+          
+        </p>
+      </div>
+
+    </article>
+  
+    </div>
+  </main>
+
+  <footer class="w-full border-t border-gray-200 dark:border-slate-700 bg-gradient-to-b from-transparent to-gray-100/50 dark:to-slate-900/50 mt-8">
+    <div class="w-full px-4 py-6">
+      <div class="flex flex-col items-center gap-3 text-center max-w-6xl mx-auto">
+        <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-4 text-xs sm:text-sm">
+          <a href="/" class="text-gray-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors underline underline-offset-2">Calculator Inflație</a>
+          <span class="text-gray-400 dark:text-slate-600">•</span>
+          <a href="/stiri.html" class="text-gray-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors underline underline-offset-2">Știri Inflație</a>
+        </div>
+        <div class="text-xs sm:text-sm text-gray-500 dark:text-slate-500">
+          © 2026 <span class="font-semibold text-gray-700 dark:text-slate-300">Softwell Solutions Hub</span>. Toate drepturile rezervate.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const themeToggle = document.getElementById('themeToggle');
+    const sunIcon = document.getElementById('sunIcon');
+    const moonIcon = document.getElementById('moonIcon');
+    const html = document.documentElement;
+    
+    function updateThemeIcons() {
+      const isDark = html.classList.contains('dark');
+      sunIcon.classList.toggle('hidden', isDark);
+      moonIcon.classList.toggle('hidden', !isDark);
+    }
+    
+    themeToggle.addEventListener('click', () => {
+      const newTheme = html.classList.contains('dark') ? 'light' : 'dark';
+      html.classList.toggle('dark', newTheme === 'dark');
+      html.dataset.theme = newTheme;
+      html.style.colorScheme = newTheme;
+      try { localStorage.setItem('calculator-inflatie-theme', newTheme); } catch (e) {}
+      updateThemeIcons();
+    });
+    
+    updateThemeIcons();
+    
+    document.getElementById('shareButton').addEventListener('click', async () => {
+      const url = window.location.href;
+      const title = document.title;
+      if (navigator.share) {
+        try { await navigator.share({ title, url }); } catch (err) {
+          if (err.name !== 'AbortError') fallbackCopyToClipboard(url);
+        }
+      } else fallbackCopyToClipboard(url);
+    });
+    
+    function fallbackCopyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Link copiat în clipboard!');
+      });
+    }
+  </script>
+</body>
+</html>
