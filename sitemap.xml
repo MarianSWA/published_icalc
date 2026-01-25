@@ -6,9 +6,3229 @@
     
     <url>
         <loc>https://calculatorinflatie.ro/</loc>
-        <lastmod>2025-10-17</lastmod>
+        <lastmod>2026-01-25</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2025.html</loc>
+        <lastmod>2025-12-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2025.html</loc>
+        <lastmod>2025-11-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2025.html</loc>
+        <lastmod>2025-10-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2025.html</loc>
+        <lastmod>2025-09-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2025.html</loc>
+        <lastmod>2025-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2025.html</loc>
+        <lastmod>2025-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2025.html</loc>
+        <lastmod>2025-06-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2025.html</loc>
+        <lastmod>2025-05-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2025.html</loc>
+        <lastmod>2025-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2025.html</loc>
+        <lastmod>2025-03-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2025.html</loc>
+        <lastmod>2025-02-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2025.html</loc>
+        <lastmod>2025-01-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2024.html</loc>
+        <lastmod>2024-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2024.html</loc>
+        <lastmod>2024-11-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2024.html</loc>
+        <lastmod>2024-10-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2024.html</loc>
+        <lastmod>2024-09-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2024.html</loc>
+        <lastmod>2024-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2024.html</loc>
+        <lastmod>2024-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2024.html</loc>
+        <lastmod>2024-06-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2024.html</loc>
+        <lastmod>2024-05-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2024.html</loc>
+        <lastmod>2024-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2024.html</loc>
+        <lastmod>2024-03-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2024.html</loc>
+        <lastmod>2024-02-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2024.html</loc>
+        <lastmod>2024-01-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2023.html</loc>
+        <lastmod>2023-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2023.html</loc>
+        <lastmod>2023-11-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2023.html</loc>
+        <lastmod>2023-10-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2023.html</loc>
+        <lastmod>2023-09-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2023.html</loc>
+        <lastmod>2023-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2023.html</loc>
+        <lastmod>2023-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2023.html</loc>
+        <lastmod>2023-06-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2023.html</loc>
+        <lastmod>2023-05-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2023.html</loc>
+        <lastmod>2023-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2023.html</loc>
+        <lastmod>2023-03-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2023.html</loc>
+        <lastmod>2023-02-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2023.html</loc>
+        <lastmod>2023-01-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2022.html</loc>
+        <lastmod>2022-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2022.html</loc>
+        <lastmod>2022-11-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2022.html</loc>
+        <lastmod>2022-10-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2022.html</loc>
+        <lastmod>2022-09-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2022.html</loc>
+        <lastmod>2022-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2022.html</loc>
+        <lastmod>2022-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2022.html</loc>
+        <lastmod>2022-06-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2022.html</loc>
+        <lastmod>2022-05-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2022.html</loc>
+        <lastmod>2022-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2022.html</loc>
+        <lastmod>2022-03-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2022.html</loc>
+        <lastmod>2022-02-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2022.html</loc>
+        <lastmod>2022-01-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2021.html</loc>
+        <lastmod>2021-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2021.html</loc>
+        <lastmod>2021-11-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2021.html</loc>
+        <lastmod>2021-10-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2021.html</loc>
+        <lastmod>2021-09-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2021.html</loc>
+        <lastmod>2021-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2021.html</loc>
+        <lastmod>2021-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2021.html</loc>
+        <lastmod>2021-06-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2021.html</loc>
+        <lastmod>2021-05-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2021.html</loc>
+        <lastmod>2021-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2021.html</loc>
+        <lastmod>2021-03-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2021.html</loc>
+        <lastmod>2021-02-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2021.html</loc>
+        <lastmod>2021-01-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2020.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2020.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2020.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2020.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2020.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2020.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2020.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2020.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2020.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2020.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2020.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2020.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2019.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2019.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2019.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2019.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2019.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2019.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2019.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2019.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2019.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2019.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2019.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2019.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2018.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2018.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2018.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2018.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2018.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2018.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2018.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2018.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2018.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2018.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2018.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2018.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2017.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2017.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2017.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2017.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2017.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2017.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2017.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2017.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2017.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2017.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2017.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2017.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2016.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2016.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2016.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2016.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2016.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2016.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2016.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2016.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2016.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2016.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2016.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2016.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2015.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2015.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2015.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2015.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2015.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2015.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2015.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2015.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2015.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2015.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2015.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2015.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2014.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2014.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2014.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2014.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2014.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2014.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2014.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2014.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2014.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2014.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2014.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2014.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2013.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2013.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2013.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2013.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2013.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2013.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2013.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2013.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2013.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2013.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2013.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2013.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2012.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2012.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2012.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2012.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2012.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2012.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2012.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2012.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2012.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2012.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2012.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2012.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2011.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2011.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2011.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2011.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2011.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2011.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2011.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2011.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2011.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2011.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2011.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2011.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2010.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2010.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2010.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2010.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2010.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2010.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2010.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2010.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2010.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2010.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2010.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2010.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2009.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2009.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2009.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2009.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2009.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2009.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2009.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2009.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2009.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2009.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2009.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2009.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2008.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2008.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2008.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2008.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2008.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2008.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2008.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2008.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2008.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2008.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2008.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2008.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2007.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2007.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2007.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2007.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2007.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2007.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2007.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2007.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2007.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2007.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2007.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2007.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2006.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2006.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2006.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2006.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2006.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2006.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2006.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2006.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2006.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2006.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2006.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2006.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2005.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2005.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2005.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2005.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2005.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2005.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2005.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2005.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2005.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2005.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2005.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2005.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2004.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2004.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2004.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2004.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2004.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2004.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2004.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2004.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2004.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2004.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2004.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2004.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2003.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2003.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2003.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2003.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2003.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2003.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2003.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2003.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2003.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2003.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2003.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2003.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2002.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2002.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2002.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2002.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2002.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2002.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2002.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2002.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2002.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2002.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2002.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2002.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2001.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2001.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2001.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2001.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2001.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2001.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2001.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2001.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2001.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2001.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2001.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2001.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-2000.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-2000.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-2000.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-2000.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-2000.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-2000.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-2000.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-2000.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-2000.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2000.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2000.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2000.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-1999.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-1999.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-1999.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-1999.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-1999.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-1999.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-1999.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-1999.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-1999.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-1999.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-1999.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-1999.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-1998.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-1998.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-1998.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-1998.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-1998.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-1998.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-1998.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-1998.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-1998.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-1998.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-1998.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-1998.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-1997.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-1997.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-1997.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-1997.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-1997.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-1997.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-1997.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-1997.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-1997.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-1997.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-1997.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-1997.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-1996.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-1996.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-1996.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-1996.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-1996.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-1996.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-1996.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-1996.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-1996.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-1996.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-1996.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-1996.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-1995.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-1995.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-1995.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-1995.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-1995.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-1995.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-1995.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-1995.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-1995.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-1995.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-1995.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-1995.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-1994.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-1994.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-1994.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-1994.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-1994.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-1994.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-1994.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-1994.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-1994.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-1994.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-1994.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-1994.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-1993.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-1993.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-1993.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-1993.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-1993.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-1993.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-1993.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-1993.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-1993.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-1993.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-1993.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-1993.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-1992.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-1992.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-1992.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-1992.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-1992.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-1992.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-1992.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-1992.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-1992.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-1992.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-1992.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-1992.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-decembrie-1991.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-noiembrie-1991.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-octombrie-1991.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-septembrie-1991.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-august-1991.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iulie-1991.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-iunie-1991.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-mai-1991.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-aprilie-1991.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-1991.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-1991.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-1991.html</loc>
+        <lastmod>2021-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-martie-2026.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-februarie-2026.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/inflatie-ianuarie-2026.html</loc>
+        <lastmod>2026-01-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2026.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2025.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2024.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2023.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2022.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2021.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2020.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2019.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2018.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2017.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2016.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2015.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2014.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2013.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2012.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2011.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2010.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2009.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2008.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2007.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2006.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2005.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2004.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2003.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2002.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2001.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-2000.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-1999.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-1998.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-1997.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-1996.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-1995.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-1994.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-1993.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-1992.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://calculatorinflatie.ro/stiri/stiri-inflatie-1991.html</loc>
+        <lastmod>2026-01-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
     
 </urlset>

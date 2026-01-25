@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script>
+  (function() {
+    const storageKey = 'calculator-inflatie-theme';
+    const root = document.documentElement;
+    let storedTheme = null;
+    try { storedTheme = window.localStorage.getItem(storageKey); } catch (error) {}
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const hasManualPreference = storedTheme === 'light' || storedTheme === 'dark';
+    const theme = hasManualPreference ? storedTheme : (prefersDark ? 'dark' : 'light');
+    root.classList.toggle('dark', theme === 'dark');
+    root.dataset.theme = theme;
+    root.style.colorScheme = theme;
+    window.__INITIAL_THEME__ = theme;
+    window.__HAS_MANUAL_THEME__ = hasManualPreference;
+  })();
+</script>
+
+<style>
+  *,::before,::after{box-sizing:border-box;margin:0;padding:0}
+  html{line-height:1.5;-webkit-text-size-adjust:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+  body{line-height:inherit;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+</style>
+
+<!-- Favicons -->
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="48x48" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    darkMode: 'class',
+  }
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+</style>
+
+  
+  <title>Știri Inflație 2018 - Date INS România | Calculator Inflație</title>
+  <meta name="description" content="Știri și statistici complete despre inflația în România în anul 2018. Date oficiale INS actualizate lunar.">
+  <link rel="canonical" href="https://calculatorinflatie.ro/stiri/stiri-inflatie-2018.html">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://calculatorinflatie.ro/stiri/stiri-inflatie-2018.html" />
+  <meta property="og:title" content="Știri Inflație 2018 - Date INS România | Calculator Inflație" />
+  <meta property="og:description" content="Știri și statistici complete despre inflația în România în anul 2018. Date oficiale INS actualizate lunar." />
+  <meta property="og:locale" content="ro_RO" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:title" content="Știri Inflație 2018 - Date INS România | Calculator Inflație" />
+  <meta property="twitter:description" content="Știri și statistici complete despre inflația în România în anul 2018. Date oficiale INS actualizate lunar." />
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-slate-950 dark:via-slate-950 dark:to-slate-900 transition-colors duration-200">
+
+  <nav class="fixed top-0 left-0 right-0 z-50 px-2 sm:px-3 md:px-5 xl:px-72 pt-1 sm:pt-1.5">
+  <div class="max-w-6xl mx-auto">
+    <div class="bg-gradient-to-r from-blue-600/70 to-indigo-600/70 backdrop-blur-lg text-white shadow-2xl rounded-2xl dark:brightness-110">
+      <div class="px-3 sm:px-4 md:px-5 py-2 sm:py-3">
+        <div class="flex items-center justify-between gap-3">
+          <nav class="flex items-center gap-1.5 sm:gap-2 flex-wrap flex-1 min-w-0">
+            <a href="/" class="flex flex-col sm:flex-row items-center gap-1 sm:gap-1.5 px-1.5 sm:px-2.5 py-1 sm:py-1.5 rounded-lg bg-white/15 hover:bg-white/25 transition-all duration-200 font-medium backdrop-blur-sm border border-white/20 hover:border-white/30 shadow-sm hover:shadow-md no-underline text-white">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+              </svg>
+              <span class="text-[8px] sm:text-sm leading-none uppercase sm:normal-case">Calculator Inflație</span>
+            </a>
+            <a href="/stiri.html" class="flex flex-col sm:flex-row items-center gap-1 sm:gap-1.5 px-1.5 sm:px-2.5 py-1 sm:py-1.5 rounded-lg bg-white/25 transition-all duration-200 font-medium backdrop-blur-sm border border-white/30 shadow-sm no-underline text-white">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+              </svg>
+              <span class="text-[8px] sm:text-sm leading-none uppercase sm:normal-case">Știri</span>
+            </a>
+          </nav>
+          <div class="flex-shrink-0 flex items-center gap-2">
+            <button id="shareButton" class="p-1.5 sm:p-2 rounded-lg bg-white/15 hover:bg-white/25 transition-all duration-200 border border-white/20 hover:border-white/30 shadow-sm hover:shadow-md group relative">
+              <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+              </svg>
+            </button>
+            <button id="themeToggle" class="p-1.5 sm:p-2 rounded-lg bg-white/15 hover:bg-white/25 transition-all duration-200 border border-white/20 hover:border-white/30 shadow-sm hover:shadow-md">
+              <svg id="sunIcon" class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+              </svg>
+              <svg id="moonIcon" class="w-4 h-4 sm:w-5 sm:h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  <main class="min-h-screen pt-20 pb-8 px-2 sm:px-3 md:px-5 xl:px-72">
+    <div class="max-w-6xl mx-auto">
+      <!-- Header -->
+<div class="text-center mb-8 sm:mb-12">
+  <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+    Știri Inflație 2018
+  </h1>
+  <p class="text-base sm:text-lg text-gray-600 dark:text-slate-400 max-w-2xl mx-auto">
+    Știrile cu date oficiale INS, BNR si statistici detaliate despre rata inflației, IPC (indicele prețurilor de consum), evoluția prețurilor și impactul asupra economiei românești pentru anul 2018
+  </p>
+</div>
+
+<!-- Navigation -->
+<div class="flex justify-center gap-4 mb-8">
+  
+      <a href="/stiri/stiri-inflatie-2017.html" class="px-6 py-2 bg-blue-600 hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-700 text-white rounded-lg font-medium transition-colors">← 2017</a>
+      <a href="/stiri.html" class="px-6 py-2 bg-gray-600 dark:bg-slate-600 hover:bg-gray-700 dark:hover:bg-slate-700 text-white rounded-lg font-medium transition-colors">Știri</a>
+      <a href="/stiri/stiri-inflatie-2019.html" class="px-6 py-2 bg-blue-600 hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-700 text-white rounded-lg font-medium transition-colors">2019 →</a>
+    
+</div>
+
+<!-- Articles Grid -->
+<div class="mb-12">
+  <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-6">Rata inflației pe parcursul lunilor din 2018</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <article class="bg-white dark:bg-slate-900/80 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200 dark:border-slate-800 hover:border-blue-500 dark:hover:border-blue-700 group">
+  <a href="/stiri/inflatie-decembrie-2018.html" class="block">
+    <div class="aspect-video w-full overflow-hidden bg-gradient-to-br from-blue-100/50 to-indigo-100/50 dark:from-blue-950/30 dark:to-indigo-950/30">
+      <img src="/stiri_images/Deflation.svg" alt="Inflație Decembrie 2018" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300" />
+    </div>
+    
+    <div class="p-4">
+      <header class="mb-3">
+        <div class="flex items-center gap-2 mb-2">
+          <time class="text-xs font-medium text-gray-600 dark:text-slate-400" datetime="2018-12">
+            Decembrie 2018
+          </time>
+          
+        </div>
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">
+          Rata anuală a inflației: 3,27% (Decembrie 2018)
+        </h2>
+      </header>
+      
+      <div class="mb-3">
+        <p class="text-sm text-gray-700 dark:text-slate-300 leading-relaxed line-clamp-2">
+          Statisticile oficiale ale INS arată că rata inflației anuale a ajuns la <strong class="text-blue-600 dark:text-blue-400">3,27%</strong> în Decembrie 2018, în comparație cu Decembrie 2017. Inflația se situează puțin sub nivelul din noiembrie, când rata a fost de 3,43%.
+        </p>
+      </div>
+      
+      <div class="flex items-center justify-end pt-3 border-t-2 border-gray-200 dark:border-slate-700">
+        <span class="text-blue-600 dark:text-blue-400 font-medium text-xs group-hover:translate-x-1 transition-transform">
+          Citește →
+        </span>
+      </div>
+    </div>
+  </a>
+</article>
+<article class="bg-white dark:bg-slate-900/80 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200 dark:border-slate-800 hover:border-blue-500 dark:hover:border-blue-700 group">
+  <a href="/stiri/inflatie-noiembrie-2018.html" class="block">
+    <div class="aspect-video w-full overflow-hidden bg-gradient-to-br from-blue-100/50 to-indigo-100/50 dark:from-blue-950/30 dark:to-indigo-950/30">
+      <img src="/stiri_images/Financial Forecast.svg" alt="Inflație Noiembrie 2018" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300" />
+    </div>
+    
+    <div class="p-4">
+      <header class="mb-3">
+        <div class="flex items-center gap-2 mb-2">
+          <time class="text-xs font-medium text-gray-600 dark:text-slate-400" datetime="2018-11">
+            Noiembrie 2018
+          </time>
+          
+        </div>
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">
+          Nivelul inflației în Noiembrie 2018: 3,43%
+        </h2>
+      </header>
+      
+      <div class="mb-3">
+        <p class="text-sm text-gray-700 dark:text-slate-300 leading-relaxed line-clamp-2">
+          Date recente ale Institutului Național de Statistică indică o rată a inflației anuale de <strong class="text-blue-600 dark:text-blue-400">3,43%</strong> în Noiembrie 2018, în raport cu perioada corespunzătoare din 2017. În raport cu octombrie, când inflația s-a cifrat la 4,25%, valoarea actuală se poziționează mult sub.
+        </p>
+      </div>
+      
+      <div class="flex items-center justify-end pt-3 border-t-2 border-gray-200 dark:border-slate-700">
+        <span class="text-blue-600 dark:text-blue-400 font-medium text-xs group-hover:translate-x-1 transition-transform">
+          Citește →
+        </span>
+      </div>
+    </div>
+  </a>
+</article>
+<article class="bg-white dark:bg-slate-900/80 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200 dark:border-slate-800 hover:border-blue-500 dark:hover:border-blue-700 group">
+  <a href="/stiri/inflatie-octombrie-2018.html" class="block">
+    <div class="aspect-video w-full overflow-hidden bg-gradient-to-br from-blue-100/50 to-indigo-100/50 dark:from-blue-950/30 dark:to-indigo-950/30">
+      <img src="/stiri_images/Startup Cost.svg" alt="Inflație Octombrie 2018" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300" />
+    </div>
+    
+    <div class="p-4">
+      <header class="mb-3">
+        <div class="flex items-center gap-2 mb-2">
+          <time class="text-xs font-medium text-gray-600 dark:text-slate-400" datetime="2018-10">
+            Octombrie 2018
+          </time>
+          
+        </div>
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">
+          Inflația ajunge la 4,25% în Octombrie 2018
+        </h2>
+      </header>
+      
+      <div class="mb-3">
+        <p class="text-sm text-gray-700 dark:text-slate-300 leading-relaxed line-clamp-2">
+          Inflația anuală a înregistrat un nivel de <strong class="text-blue-600 dark:text-blue-400">4,25%</strong> în Octombrie 2018, comparativ cu aceeași perioadă din 2017, conform datelor oficiale ale Institutului Național de Statistică. Nivelul este mult sub cel din septembrie, perioadă în care rata inflației a fost de 5,03%.
+        </p>
+      </div>
+      
+      <div class="flex items-center justify-end pt-3 border-t-2 border-gray-200 dark:border-slate-700">
+        <span class="text-blue-600 dark:text-blue-400 font-medium text-xs group-hover:translate-x-1 transition-transform">
+          Citește →
+        </span>
+      </div>
+    </div>
+  </a>
+</article>
+<article class="bg-white dark:bg-slate-900/80 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200 dark:border-slate-800 hover:border-blue-500 dark:hover:border-blue-700 group">
+  <a href="/stiri/inflatie-septembrie-2018.html" class="block">
+    <div class="aspect-video w-full overflow-hidden bg-gradient-to-br from-blue-100/50 to-indigo-100/50 dark:from-blue-950/30 dark:to-indigo-950/30">
+      <img src="/stiri_images/Money Inflation.svg" alt="Inflație Septembrie 2018" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300" />
+    </div>
+    
+    <div class="p-4">
+      <header class="mb-3">
+        <div class="flex items-center gap-2 mb-2">
+          <time class="text-xs font-medium text-gray-600 dark:text-slate-400" datetime="2018-09">
+            Septembrie 2018
+          </time>
+          
+        </div>
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">
+          Inflație 5,03% în Septembrie 2018
+        </h2>
+      </header>
+      
+      <div class="mb-3">
+        <p class="text-sm text-gray-700 dark:text-slate-300 leading-relaxed line-clamp-2">
+          În Septembrie 2018, inflația anuală a fost înregistrată la <strong class="text-blue-600 dark:text-blue-400">5,03%</strong>, față de aceeași perioadă din anul 2017, conform raportului INS. Față de luna august, când s-a înregistrat 5,06%, inflația actuală se află puțin sub acel nivel.
+        </p>
+      </div>
+      
+      <div class="flex items-center justify-end pt-3 border-t-2 border-gray-200 dark:border-slate-700">
+        <span class="text-blue-600 dark:text-blue-400 font-medium text-xs group-hover:translate-x-1 transition-transform">
+          Citește →
+        </span>
+      </div>
+    </div>
+  </a>
+</article>
+<article class="bg-white dark:bg-slate-900/80 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200 dark:border-slate-800 hover:border-blue-500 dark:hover:border-blue-700 group">
+  <a href="/stiri/inflatie-august-2018.html" class="block">
+    <div class="aspect-video w-full overflow-hidden bg-gradient-to-br from-blue-100/50 to-indigo-100/50 dark:from-blue-950/30 dark:to-indigo-950/30">
+      <img src="/stiri_images/Money Crisis.svg" alt="Inflație August 2018" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300" />
+    </div>
+    
+    <div class="p-4">
+      <header class="mb-3">
+        <div class="flex items-center gap-2 mb-2">
+          <time class="text-xs font-medium text-gray-600 dark:text-slate-400" datetime="2018-08">
+            August 2018
+          </time>
+          
+        </div>
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">
+          Inflația ajunge la 5,06% în August 2018
+        </h2>
+      </header>
+      
+      <div class="mb-3">
+        <p class="text-sm text-gray-700 dark:text-slate-300 leading-relaxed line-clamp-2">
+          În August 2018, inflația anuală a fost înregistrată la <strong class="text-blue-600 dark:text-blue-400">5,06%</strong>, față de aceeași perioadă din anul 2017, conform raportului INS. Față de luna iulie, când s-a înregistrat 4,56%, inflația actuală se află mult peste acel nivel.
+        </p>
+      </div>
+      
+      <div class="flex items-center justify-end pt-3 border-t-2 border-gray-200 dark:border-slate-700">
+        <span class="text-blue-600 dark:text-blue-400 font-medium text-xs group-hover:translate-x-1 transition-transform">
+          Citește →
+        </span>
+      </div>
+    </div>
+  </a>
+</article>
+<article class="bg-white dark:bg-slate-900/80 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200 dark:border-slate-800 hover:border-blue-500 dark:hover:border-blue-700 group">
+  <a href="/stiri/inflatie-iulie-2018.html" class="block">
+    <div class="aspect-video w-full overflow-hidden bg-gradient-to-br from-blue-100/50 to-indigo-100/50 dark:from-blue-950/30 dark:to-indigo-950/30">
+      <img src="/stiri_images/Grocery Bill.svg" alt="Inflație Iulie 2018" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300" />
+    </div>
+    
+    <div class="p-4">
+      <header class="mb-3">
+        <div class="flex items-center gap-2 mb-2">
+          <time class="text-xs font-medium text-gray-600 dark:text-slate-400" datetime="2018-07">
+            Iulie 2018
+          </time>
+          
+        </div>
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">
+          Date inflație Iulie 2018: 4,56%
+        </h2>
+      </header>
+      
+      <div class="mb-3">
+        <p class="text-sm text-gray-700 dark:text-slate-300 leading-relaxed line-clamp-2">
+          Institutul Național de Statistică raportează că inflația anuală cumulată a atins <strong class="text-blue-600 dark:text-blue-400">4,56%</strong> în Iulie 2018, comparativ cu Iulie 2017. În raport cu iunie, când inflația s-a cifrat la 5,40%, valoarea actuală se poziționează mult sub.
+        </p>
+      </div>
+      
+      <div class="flex items-center justify-end pt-3 border-t-2 border-gray-200 dark:border-slate-700">
+        <span class="text-blue-600 dark:text-blue-400 font-medium text-xs group-hover:translate-x-1 transition-transform">
+          Citește →
+        </span>
+      </div>
+    </div>
+  </a>
+</article>
+<article class="bg-white dark:bg-slate-900/80 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200 dark:border-slate-800 hover:border-blue-500 dark:hover:border-blue-700 group">
+  <a href="/stiri/inflatie-iunie-2018.html" class="block">
+    <div class="aspect-video w-full overflow-hidden bg-gradient-to-br from-blue-100/50 to-indigo-100/50 dark:from-blue-950/30 dark:to-indigo-950/30">
+      <img src="/stiri_images/Property Investment.svg" alt="Inflație Iunie 2018" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300" />
+    </div>
+    
+    <div class="p-4">
+      <header class="mb-3">
+        <div class="flex items-center gap-2 mb-2">
+          <time class="text-xs font-medium text-gray-600 dark:text-slate-400" datetime="2018-06">
+            Iunie 2018
+          </time>
+          
+        </div>
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">
+          Date inflație Iunie 2018: 5,40%
+        </h2>
+      </header>
+      
+      <div class="mb-3">
+        <p class="text-sm text-gray-700 dark:text-slate-300 leading-relaxed line-clamp-2">
+          Conform comunicatului oficial al INS, inflația anuală s-a stabilit la <strong class="text-blue-600 dark:text-blue-400">5,40%</strong> pentru Iunie 2018, măsurată față de aceeași lună a anului 2017. Rata actuală este puțin sub cea din mai (5,41%), indicând o dinamică a evoluției prețurilor.
+        </p>
+      </div>
+      
+      <div class="flex items-center justify-end pt-3 border-t-2 border-gray-200 dark:border-slate-700">
+        <span class="text-blue-600 dark:text-blue-400 font-medium text-xs group-hover:translate-x-1 transition-transform">
+          Citește →
+        </span>
+      </div>
+    </div>
+  </a>
+</article>
+<article class="bg-white dark:bg-slate-900/80 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200 dark:border-slate-800 hover:border-blue-500 dark:hover:border-blue-700 group">
+  <a href="/stiri/inflatie-mai-2018.html" class="block">
+    <div class="aspect-video w-full overflow-hidden bg-gradient-to-br from-blue-100/50 to-indigo-100/50 dark:from-blue-950/30 dark:to-indigo-950/30">
+      <img src="/stiri_images/Tax Burden.svg" alt="Inflație Mai 2018" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300" />
+    </div>
+    
+    <div class="p-4">
+      <header class="mb-3">
+        <div class="flex items-center gap-2 mb-2">
+          <time class="text-xs font-medium text-gray-600 dark:text-slate-400" datetime="2018-05">
+            Mai 2018
+          </time>
+          
+        </div>
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">
+          Inflație 5,41% în Mai 2018
+        </h2>
+      </header>
+      
+      <div class="mb-3">
+        <p class="text-sm text-gray-700 dark:text-slate-300 leading-relaxed line-clamp-2">
+          Conform comunicatului oficial al INS, inflația anuală s-a stabilit la <strong class="text-blue-600 dark:text-blue-400">5,41%</strong> pentru Mai 2018, măsurată față de aceeași lună a anului 2017. Comparativ cu aprilie, când inflația a fost de 5,22%, nivelul actual este puțin peste.
+        </p>
+      </div>
+      
+      <div class="flex items-center justify-end pt-3 border-t-2 border-gray-200 dark:border-slate-700">
+        <span class="text-blue-600 dark:text-blue-400 font-medium text-xs group-hover:translate-x-1 transition-transform">
+          Citește →
+        </span>
+      </div>
+    </div>
+  </a>
+</article>
+<article class="bg-white dark:bg-slate-900/80 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200 dark:border-slate-800 hover:border-blue-500 dark:hover:border-blue-700 group">
+  <a href="/stiri/inflatie-aprilie-2018.html" class="block">
+    <div class="aspect-video w-full overflow-hidden bg-gradient-to-br from-blue-100/50 to-indigo-100/50 dark:from-blue-950/30 dark:to-indigo-950/30">
+      <img src="/stiri_images/Economy Collapse.svg" alt="Inflație Aprilie 2018" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300" />
+    </div>
+    
+    <div class="p-4">
+      <header class="mb-3">
+        <div class="flex items-center gap-2 mb-2">
+          <time class="text-xs font-medium text-gray-600 dark:text-slate-400" datetime="2018-04">
+            Aprilie 2018
+          </time>
+          
+        </div>
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">
+          Inflația ajunge la 5,22% în Aprilie 2018
+        </h2>
+      </header>
+      
+      <div class="mb-3">
+        <p class="text-sm text-gray-700 dark:text-slate-300 leading-relaxed line-clamp-2">
+          Potrivit datelor INS, inflația anuală cumulată s-a cifrat la <strong class="text-blue-600 dark:text-blue-400">5,22%</strong> pentru luna Aprilie 2018, comparativ cu aceeași lună din 2017. În raport cu martie, când inflația s-a cifrat la 4,95%, valoarea actuală se poziționează puțin peste.
+        </p>
+      </div>
+      
+      <div class="flex items-center justify-end pt-3 border-t-2 border-gray-200 dark:border-slate-700">
+        <span class="text-blue-600 dark:text-blue-400 font-medium text-xs group-hover:translate-x-1 transition-transform">
+          Citește →
+        </span>
+      </div>
+    </div>
+  </a>
+</article>
+<article class="bg-white dark:bg-slate-900/80 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200 dark:border-slate-800 hover:border-blue-500 dark:hover:border-blue-700 group">
+  <a href="/stiri/inflatie-martie-2018.html" class="block">
+    <div class="aspect-video w-full overflow-hidden bg-gradient-to-br from-blue-100/50 to-indigo-100/50 dark:from-blue-950/30 dark:to-indigo-950/30">
+      <img src="/stiri_images/Borrowing Costs.svg" alt="Inflație Martie 2018" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300" />
+    </div>
+    
+    <div class="p-4">
+      <header class="mb-3">
+        <div class="flex items-center gap-2 mb-2">
+          <time class="text-xs font-medium text-gray-600 dark:text-slate-400" datetime="2018-03">
+            Martie 2018
+          </time>
+          
+        </div>
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">
+          Rata anuală a inflației: 4,95% (Martie 2018)
+        </h2>
+      </header>
+      
+      <div class="mb-3">
+        <p class="text-sm text-gray-700 dark:text-slate-300 leading-relaxed line-clamp-2">
+          Inflația anuală a înregistrat un nivel de <strong class="text-blue-600 dark:text-blue-400">4,95%</strong> în Martie 2018, comparativ cu aceeași perioadă din 2017, conform datelor oficiale ale Institutului Național de Statistică. În raport cu februarie, când inflația s-a cifrat la 4,72%, valoarea actuală se poziționează puțin peste.
+        </p>
+      </div>
+      
+      <div class="flex items-center justify-end pt-3 border-t-2 border-gray-200 dark:border-slate-700">
+        <span class="text-blue-600 dark:text-blue-400 font-medium text-xs group-hover:translate-x-1 transition-transform">
+          Citește →
+        </span>
+      </div>
+    </div>
+  </a>
+</article>
+<article class="bg-white dark:bg-slate-900/80 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200 dark:border-slate-800 hover:border-blue-500 dark:hover:border-blue-700 group">
+  <a href="/stiri/inflatie-februarie-2018.html" class="block">
+    <div class="aspect-video w-full overflow-hidden bg-gradient-to-br from-blue-100/50 to-indigo-100/50 dark:from-blue-950/30 dark:to-indigo-950/30">
+      <img src="/stiri_images/Cash Wallet.svg" alt="Inflație Februarie 2018" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300" />
+    </div>
+    
+    <div class="p-4">
+      <header class="mb-3">
+        <div class="flex items-center gap-2 mb-2">
+          <time class="text-xs font-medium text-gray-600 dark:text-slate-400" datetime="2018-02">
+            Februarie 2018
+          </time>
+          
+        </div>
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">
+          Nivelul inflației în Februarie 2018: 4,72%
+        </h2>
+      </header>
+      
+      <div class="mb-3">
+        <p class="text-sm text-gray-700 dark:text-slate-300 leading-relaxed line-clamp-2">
+          Potrivit datelor INS, inflația anuală cumulată s-a cifrat la <strong class="text-blue-600 dark:text-blue-400">4,72%</strong> pentru luna Februarie 2018, comparativ cu aceeași lună din 2017. Comparativ cu nivelul de 4,32% din ianuarie, inflația actuală este puțin peste.
+        </p>
+      </div>
+      
+      <div class="flex items-center justify-end pt-3 border-t-2 border-gray-200 dark:border-slate-700">
+        <span class="text-blue-600 dark:text-blue-400 font-medium text-xs group-hover:translate-x-1 transition-transform">
+          Citește →
+        </span>
+      </div>
+    </div>
+  </a>
+</article>
+<article class="bg-white dark:bg-slate-900/80 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border-2 border-gray-200 dark:border-slate-800 hover:border-blue-500 dark:hover:border-blue-700 group">
+  <a href="/stiri/inflatie-ianuarie-2018.html" class="block">
+    <div class="aspect-video w-full overflow-hidden bg-gradient-to-br from-blue-100/50 to-indigo-100/50 dark:from-blue-950/30 dark:to-indigo-950/30">
+      <img src="/stiri_images/Startup Cost.svg" alt="Inflație Ianuarie 2018" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300" />
+    </div>
+    
+    <div class="p-4">
+      <header class="mb-3">
+        <div class="flex items-center gap-2 mb-2">
+          <time class="text-xs font-medium text-gray-600 dark:text-slate-400" datetime="2018-01">
+            Ianuarie 2018
+          </time>
+          
+        </div>
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-2">
+          Inflația ajunge la 4,32% în Ianuarie 2018
+        </h2>
+      </header>
+      
+      <div class="mb-3">
+        <p class="text-sm text-gray-700 dark:text-slate-300 leading-relaxed line-clamp-2">
+          Institutul Național de Statistică raportează că inflația anuală cumulată a atins <strong class="text-blue-600 dark:text-blue-400">4,32%</strong> în Ianuarie 2018, comparativ cu Ianuarie 2017. În raport cu decembrie, când inflația s-a cifrat la 3,32%, valoarea actuală se poziționează mult peste.
+        </p>
+      </div>
+      
+      <div class="flex items-center justify-end pt-3 border-t-2 border-gray-200 dark:border-slate-700">
+        <span class="text-blue-600 dark:text-blue-400 font-medium text-xs group-hover:translate-x-1 transition-transform">
+          Citește →
+        </span>
+      </div>
+    </div>
+  </a>
+</article>
+
+  </div>
+</div>
+
+    </div>
+  </main>
+
+  <footer class="w-full border-t border-gray-200 dark:border-slate-700 bg-gradient-to-b from-transparent to-gray-50 dark:to-slate-900/50">
+  <div class="w-full px-4 py-6">
+    <div class="flex flex-col items-center gap-3 text-center">
+      <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-4 text-xs sm:text-sm">
+        <button onclick="openTermsModal()" class="text-gray-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors underline underline-offset-2 cursor-pointer bg-transparent border-none">
+          Termeni și Condiții
+        </button>
+        <span class="text-gray-400 dark:text-slate-600">•</span>
+        <button onclick="openCookiesModal()" class="text-gray-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors underline underline-offset-2 cursor-pointer bg-transparent border-none">
+          Politica Cookie-uri
+        </button>
+        <!-- <span id="cookie-preferences-separator" class="text-gray-400 dark:text-slate-600 hidden">•</span>
+        <button id="cookie-preferences-link" onclick="openCookieBanner()" class="text-gray-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors underline underline-offset-2 cursor-pointer bg-transparent border-none hidden">
+          Preferințe Cookie-uri
+        </button> -->
+      </div>
+
+      <div class="text-xs sm:text-sm text-gray-500 dark:text-slate-500">
+        © 2026 <span class="font-semibold text-gray-700 dark:text-slate-300">Softwell Solutions Hub</span>. Toate drepturile rezervate.
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/modalContent.js"></script>
+
+
+  <script>
+  const themeToggle = document.getElementById('themeToggle');
+  const sunIcon = document.getElementById('sunIcon');
+  const moonIcon = document.getElementById('moonIcon');
+  const html = document.documentElement;
+  
+  function updateThemeIcons() {
+    const isDark = html.classList.contains('dark');
+    sunIcon.classList.toggle('hidden', isDark);
+    moonIcon.classList.toggle('hidden', !isDark);
+  }
+  
+  themeToggle.addEventListener('click', () => {
+    const newTheme = html.classList.contains('dark') ? 'light' : 'dark';
+    html.classList.toggle('dark', newTheme === 'dark');
+    html.dataset.theme = newTheme;
+    html.style.colorScheme = newTheme;
+    try { localStorage.setItem('calculator-inflatie-theme', newTheme); } catch (e) {}
+    updateThemeIcons();
+  });
+  
+  updateThemeIcons();
+  
+  document.getElementById('shareButton').addEventListener('click', async () => {
+    const url = window.location.href;
+    const title = document.title;
+    if (navigator.share) {
+      try { await navigator.share({ title, url }); } catch (err) {
+        if (err.name !== 'AbortError') fallbackCopyToClipboard(url);
+      }
+    } else fallbackCopyToClipboard(url);
+  });
+  
+  function fallbackCopyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+      alert('Link copiat în clipboard!');
+    });
+  }
+</script>
+
+</body>
+</html>
